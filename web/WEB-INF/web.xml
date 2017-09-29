@@ -14,4 +14,21 @@
         <!-- 访问的网址 -->
         <url-pattern>/admin/user</url-pattern>
     </servlet-mapping>
+
+    <context-param>
+        <param-name>JDBC_DRIVER</param-name>
+        <param-value>com.mysql.jdbc.Driver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>DB_URL</param-name>
+        <param-value>jdbc:mysql://localhost:3306/resturant</param-value>
+    </context-param>
+    <context-param>
+        <param-name>USERNAME</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <param-name>PASSWORD</param-name>
+        <param-value>root</param-value>
+    </context-param>
 </web-app>
